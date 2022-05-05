@@ -1,0 +1,41 @@
+
+
+/*function even_or_odd(number) {
+  if (number%2 == 0) {
+    console.log('Even')
+  }
+  else {
+    console.log('Odd')
+  }
+  
+}
+
+even_or_odd(5);*/
+
+/*
+if ( n%2 == 0) {
+    console.log(Even)
+}
+if ( n%2 != 0){
+    console.log(Odd)
+
+}
+return 0;
+}}*/
+
+
+
+function even_or_odd(number) {
+  if (number%2 == 0) {
+    return 'Even'
+  }
+  else if (number%2 != 0) {
+    return 'Odd'
+  }
+  else {
+    console.log('undefined ')
+  }
+  
+}
+
+even_or_odd(5);
