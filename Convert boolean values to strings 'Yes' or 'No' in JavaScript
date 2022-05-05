@@ -1,0 +1,13 @@
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
+//hey look a ternary operator
+/*let bool = true;
+
+function boolToWord( bool ){
+  
+  
+  if(true){(bool = "yes")
+  }else if(false){(bool = "no")
+  }else{(bool = "maybe")} 
+}*/
